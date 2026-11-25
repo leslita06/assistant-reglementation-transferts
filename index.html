@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Assistant réglementation des transferts : la réponse et son article</title>
+<meta name="description" content="Un guichet partenaire ou une équipe réseau pose sa question sur les transferts d'argent dans l'UEMOA et reçoit une réponse qui cite l'article et le texte officiel, avec son lien.">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1">
+</head>
+<body>
+<header class="top">
+  <div class="wrap row">
+    <span class="brand"><span class="dot"></span>Assistant réglementation des transferts</span>
+    <a class="btn small" href="#essayer">Essayer</a>
+  </div>
+</header>
+
+<section class="hero wrap">
+  <p class="kicker"><span>Transferts d'argent dans l'UEMOA</span></p>
+  <h1>La bonne règle de transfert, avec son article, en dix secondes</h1>
+  <p class="lead">Une équipe réseau ou un guichet partenaire, banque, microfinance ou opérateur de portefeuille mobile, pose sa question. L'assistant répond à partir des seuls textes officiels de la BCEAO et de l'UEMOA, cite l'article et donne le lien vers le texte. Ce qu'il ne trouve pas dans un texte, il ne l'invente pas : il le dit.</p>
+  <div class="cta"><a class="btn" href="#essayer">Essayer</a><a class="btn ghost" href="#textes">Voir les textes utilisés</a></div>
+</section>
+
+<section class="stats wrap" aria-label="Trois chiffres">
+  <div class="stat"><b>8,46 %</b><span>du montant envoyé : c'est le coût moyen d'un transfert de 200 dollars vers l'Afrique subsaharienne, la région la plus chère du monde.</span><em>Méthode : moyenne publiée par la Banque mondiale pour le troisième trimestre 2025 (Remittance Prices Worldwide, n° 54). <a href="https://remittanceprices.worldbank.org/sites/default/files/2026-04/RPW_main_report_and_annex_Q325.pdf" target="_blank" rel="noopener">Source</a></em></div>
+  <div class="stat"><b>200 000</b><span>collaborateurs de JPMorgan utilisaient à la mi-mai 2025 LLM Suite, l'assistant d'IA générative de la banque.</span><em>Méthode : chiffre publié par American Banker le 22 mai 2025. <a href="https://www.americanbanker.com/news/how-jpmorganchase-democratized-employee-access-to-gen-ai" target="_blank" rel="noopener">Source</a></em></div>
+  <div class="stat"><b>100 %</b><span>des réponses ci-dessous citent leur article et le lien du texte officiel : 6 questions, 6 textes, 22 références.</span><em>Méthode : décompte des réponses de cette page, textes relus le 25 novembre 2026.</em></div>
+</section>
+
+<section id="essayer" class="try">
+  <div class="wrap">
+    <h2>Posez une question de réseau ou de guichet</h2>
+    <p class="sub">Choisissez une question ou écrivez la vôtre.</p>
+    <div class="stage">
+      <div class="laptop">
+        <div class="screen">
+          <div class="bar"><i></i><i></i><i></i><span>Assistant réglementation, espace réseau</span></div>
+          <div class="app">
+            <aside class="chips" id="chips" aria-label="Questions"></aside>
+            <div class="chat">
+              <div class="log" id="log" aria-live="polite"></div>
+              <form class="ask" id="ask" autocomplete="off">
+                <input id="q" type="text" placeholder="Ex. : plafond d'un portefeuille mobile" aria-label="Votre question">
+                <button class="btn" type="submit">Envoyer</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="base"></div>
+      </div>
+      <div class="phone" aria-hidden="true">
+        <div class="notch"></div>
+        <div class="pscreen">
+          <div class="ptitle">Assistant réglementation</div>
+          <div class="msg me">Je peux verser un transfert sur un portefeuille mobile ?</div>
+          <div class="msg bot">Oui en réception, via la relation avec une banque agréée. L'émetteur ne peut pas envoyer vers l'étranger.<span class="tag">Règlement n° 06/2024/CM/UEMOA, art. 26</span></div>
+          <div class="msg me">Et le plafond du portefeuille ?</div>
+          <div class="msg bot">4 millions de francs CFA d'avoirs, 15 millions de rechargements par mois, depuis le 2 novembre 2026.<span class="tag">Instruction n° 020 du 8 octobre 2026</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="note">Réponses tirées des textes officiels relus le 25 novembre 2026. Elles aident l'agent ; en cas de doute, le responsable juridique ou conformité tranche.</p>
+  </div>
+</section>
+
+<section id="textes" class="wrap textes">
+  <h2>Les textes utilisés</h2>
+  <ul id="liste"></ul>
+  <h3>Les références citées en exemple</h3>
+  <ul>
+    <li><b>Banque mondiale, Remittance Prices Worldwide</b> : le suivi trimestriel du coût des transferts dans le monde. <a href="https://remittanceprices.worldbank.org/" target="_blank" rel="noopener">Banque mondiale</a></li>
+    <li><b>JPMorgan, LLM Suite</b> : un assistant d'IA générative ouvert à presque tous les employés. <a href="https://www.americanbanker.com/news/how-jpmorganchase-democratized-employee-access-to-gen-ai" target="_blank" rel="noopener">American Banker</a></li>
+  </ul>
+</section>
+
+<footer class="foot wrap">Textes en vigueur au 25 novembre 2026. Les liens mènent aux textes publiés par la BCEAO et la Commission bancaire de l'UMOA.</footer>
+
+<script src="data.js?v=1"></script>
+<script src="app.js?v=1"></script>
+</body>
+</html>
